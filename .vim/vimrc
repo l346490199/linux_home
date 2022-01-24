@@ -1,0 +1,28 @@
+" 颜色
+syntax on
+" 行号
+set number
+set relativenumber
+"横线
+set cursorline
+" 使字符不超出屏幕界限
+set wrap
+" 命令模式下的命令补全
+set showcmd
+" 命令模式下的选择
+set wildmenu
+
+" 搜索高亮
+set hlsearch
+exec "nohlsearch"
+" 搜索时高亮
+set incsearch
+" 搜索时忽略大小写
+set ignorecase
+" 搜索时智能大小写
+set smartcase
+
+map s <nop>
+map S :w<CR>
+map Q :q<CR>
+map R :source $MYVIMRC<CR>
